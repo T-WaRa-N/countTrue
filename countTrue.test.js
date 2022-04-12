@@ -7,7 +7,11 @@ const countTrue = require("./countTrue")
 // })
 
 it("Check whether an array is returned", ()=>{
-    expect(countTrue([])).toEqual([])
+    expect(countTrue([])).toEqual(0)
 })
+
+// it("Check number of bolean 'true' in the array", ()=>{
+//     expect(countTrue([])).toEqual([])
+// })
 
 

@@ -3,7 +3,7 @@
 let array = []
 
 function countTrue(array){
-  return array
+  return array.length
 }
 
 module.exports = countTrue
