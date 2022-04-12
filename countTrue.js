@@ -1,9 +1,16 @@
 // function to count the number of "true" in an array
 
-let array = []
+let array = [true, false, true]
 
 function countTrue(array){
-  return array.length
+
+  let numOfTrues = array.filter((element)=>{
+    if(element == true){
+      return element
+    }
+  })
+
+  return numOfTrues.length
 }
 
 module.exports = countTrue

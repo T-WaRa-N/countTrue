@@ -10,8 +10,8 @@ it("Check whether an array is returned", ()=>{
     expect(countTrue([])).toEqual(0)
 })
 
-// it("Check number of bolean 'true' in the array", ()=>{
-//     expect(countTrue([])).toEqual([])
-// })
+it("Check number of bolean 'true' in the array", ()=>{
+    expect(countTrue([true, false, true])).toEqual(2)
+})
 
 
