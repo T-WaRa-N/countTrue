@@ -4,11 +4,7 @@ let array = [true, false, true]
 
 function countTrue(array){
 
-  let numOfTrues = array.filter((element)=>{
-    if(element == true){
-      return element
-    }
-  })
+  let numOfTrues = array.filter(element => element == true)
 
   return numOfTrues.length
 }
